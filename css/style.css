@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(90deg, #e50000, #ff8d00, #ffee00, #008121, #1affd1, #004cff, #760188);
+    background-size: 1000% 600%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: -1% 0;
+    }
+    100% {
+        background-position: 110% 0;
+    }
+    
+}
+  
+  @-moz-keyframes Gradient {
+    0% {
+        background-position: -1% 0;
+    }
+    100% {
+        background-position: 110% 0;
+    }
+    
+}
+
+  @keyframes Gradient {
+    0% {
+        background-position: -1% 0;
+    }
+    100% {
+        background-position: 110% 0;
+    }
+    
+}
+
+.btn-secondary{
+    background: cornflowerblue;
+}
+
+.h3{
+    font: 5em;
+}
+
+#transgender{
+    display: none;
+}
+
+#asexual{
+    display: none;
+}
+
+#bisexual{
+    display: none;
+}
+
+.text-left{
+    font-size: 1.6em;
+}
+
+.text-center{
+    font-size: 3.5em;
+}
+
+.text-justify{
+    color: #ffffff;
+}
